@@ -18,7 +18,7 @@ public Map<Integer, List<Integer>> levelOrder(Node root) {
 			} else {
 				levelOrder.put(level, list);
 				if (!q.isEmpty()) {
-					q.offer(null);
+					q.offer(null); // It indicates the end of next level
 					list = new ArrayList<>();
 					level++;
 				}
