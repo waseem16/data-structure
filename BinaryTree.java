@@ -22,7 +22,7 @@ public class BinaryTree {
 	}
 
 	public static void main(String[] args) {
-		int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+		int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9 ,10 , 11, 12};
 		Node root = BinaryTree.createTree(null, arr, 0);
 		BinaryTree.inorder(root);
 	}
