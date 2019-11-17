@@ -18,9 +18,9 @@ public Map<Integer, List<Integer>> levelOrder(Node root) {
 			} else {
 				levelOrder.put(level, list);
 				if (!q.isEmpty()) {
+					q.offer(null);
 					list = new ArrayList<>();
 					level++;
-					q.offer(null);
 				}
 			}
 		}
