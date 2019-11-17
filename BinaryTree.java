@@ -1,19 +1,7 @@
 package com.waseem.datastructure.tree;
 
 public class BinaryTree {
-
-	static class Node {
-		int data;
-		Node left;
-		Node right;
-
-		public Node(int data) {
-			this.data = data;
-			this.left = null;
-			this.right = null;
-		}
-	}
-
+	
 	// create a binary tree from an array
 	public static Node createTree(Node root, int[] arr, int i) {
 		if (i < arr.length) {
